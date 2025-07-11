@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.13.0"
+  version: "1.13.1"
 
 package:
   name: ninja
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/ninja-build/ninja/archive/v${{ version }}.tar.gz
-  sha256: f08641d00099a9e40d44ec0146f841c472ae58b7e6dd517bee3945cfd923cedf
+  sha256: f0055ad0369bf2e372955ba55128d000cfcc21777057806015b45e4accbebf23
 
 build:
   number: 0
